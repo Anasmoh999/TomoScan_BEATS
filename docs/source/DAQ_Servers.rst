@@ -1,7 +1,7 @@
 DAQ Servers
 ============
 
-The following GUIs must be running:
+The following Servers must be running:
 
     * `Writer Server`_
     * `Python Server`_
@@ -17,3 +17,9 @@ Writer Server
 
 Python Server
 --------------
+    1. cd ``/opt/epics/synApps/support/tomoscan/iocBoot/iocTomoScan_BEATS_Step`` for Step scan or ``/opt/epics/synApps/support/tomoscan/iocBoot/iocTomoScan_BEATS_Continuous`` for Continuous scan.
+    2. Type: ``./start_python``.
+
+    .. warning::
+
+        The selection between Step and Continuous scan depends on **Writer Server** selection.
