@@ -22,4 +22,4 @@ ImageJ
     .. |ImageJ| image:: /ImageJ.jpg
                 :scale: 30%
 
-    2. or from terminal: 
+    2. or from terminal: cd ``/opt/SW/ImageJ/ImageJ``.

@@ -19,6 +19,15 @@ PCOADWin driver IOC
 --------------------
     1. Login to windows DAQ server.
     2. Run cmd.
+
+    .. admonition:: Recommended
+
+        It is preferable to start Console Emulator: |ConEmu|
+
+         .. |ConEmu| image:: /ConEmu.png
+                    :scale: 10%
+
+
     3. Go to ``c:\pcoIOC``.
     4. Type this ``bin\windows-x64\ioc.exe iocBoot\ioc\st.cmd``.
 
