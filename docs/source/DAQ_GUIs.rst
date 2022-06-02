@@ -6,6 +6,9 @@ The following GUIs must be running:
     * `MEDM`_
     * `ImageJ`_
 
+.. .................................................
+.. .................................................
+
 MEDM
 -----
     1. cd ``/opt/epics/synApps/support/tomoscan/iocBoot/iocTomoScan_BEATS_Step`` for Step scan or ``/opt/epics/synApps/support/tomoscan/iocBoot/iocTomoScan_BEATS_Continuous`` for Continuous scan.
@@ -14,6 +17,9 @@ MEDM
     .. warning::
 
         The selection between Step and Continuous scan depends on **Writer Server** selection.
+
+.. .................................................
+.. .................................................
 
 ImageJ
 -------

@@ -1,7 +1,9 @@
 TomoScan BEATS IOCs
 ====================
 
-.. two dots (..) means comments
+.. two dots (..) ===> comments
+.. .................................................
+.. .................................................
 
 Follow the procedures below to run the IOCs:
 
@@ -17,6 +19,8 @@ Follow the procedures below to run the IOCs:
 
     It is preferable to open a new tab for each IOC. Also, it is preferable to run each IOC in tmux.
 
+.. .................................................
+.. .................................................
 
 PCOADWin driver IOC
 --------------------
@@ -38,6 +42,8 @@ PCOADWin driver IOC
 
         Before going to next step, please make sure to run **CentOS 7 VM** on windows DAQ Server.
 
+.. .................................................
+.. .................................................
 
 Motor IOC
 ----------
@@ -58,7 +64,9 @@ Motor IOC
         Check if the IOC is running by typing: *tmux ls*.
         if not, type this command to run the IOC: ``tmux new -s MotorIOC``, then: ``./bin/linux-x86_64/ioc iocBoot/ioc/st.cmd``.
 
-	
+.. .................................................
+.. .................................................
+
 TomoScan Support IOC
 ---------------------
     1. ssh -X to the server 10.1.50.16 using root username.
@@ -69,6 +77,8 @@ TomoScan Support IOC
         Check if the IOC is running by typing: *tmux ls*.
         if not, type this command to run the IOC: ``tmux new -s TomoScanSupportIOC``, then: ``softIOC -d suppIoc.db``.
 
+.. .................................................
+.. .................................................
 
 Writer Support IOC
 -------------------
@@ -80,6 +90,8 @@ Writer Support IOC
         Check if the IOC is running by typing: *tmux ls*.
         if not, type this command to run the IOC: ``tmux new -s WriterSupportIOC``, then: ``softIOC -d writerStatus.db``.
 
+.. .................................................
+.. .................................................
 
 TomoScan IOC
 -------------
