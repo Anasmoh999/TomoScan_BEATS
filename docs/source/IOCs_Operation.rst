@@ -62,7 +62,7 @@ Motor IOC
     .. note::
 
         Check if the IOC is running by typing: *tmux ls*.
-        if not,type this command to run the IOC: ``tmux new -s MotorIOC``, then: ``./bin/linux-x86_64/ioc iocBoot/ioc/st.cmd``.
+        if not, type this command to run the IOC: ``tmux new -s MotorIOC``, then: ``./bin/linux-x86_64/ioc iocBoot/ioc/st.cmd``.
 
 .. .................................................
 .. .................................................
