@@ -1,8 +1,11 @@
 TomoScan BEATS IOCs
 ====================
 
+.. two dots (..) means comments
 
 Follow the procedures below to run the IOCs:
+
+    .. hyperlink in local page
 
     * `PCOADWin driver IOC`_
     * `Motor IOC`_
